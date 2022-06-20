@@ -1,18 +1,17 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-gems: [jekyll-paginate]
-paginate: 5
+permalink: pretty
 paginate_path: "page:num"
 #relative_permalinks: true
 
+plugins: [jekyll-paginate]
 # Setup
 title:               Poole
 tagline:             The Jekyll Butler
 url:                 http://getpoole.com
-paginate:            1
-baseurl:             "http://orduek.github.io/poole/"
+paginate:            5
+baseurl:             http://orduek.github.io/poole/
 
 # Assets
 #
@@ -23,7 +22,7 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Tobias Spiller & Or Duek 
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
 
